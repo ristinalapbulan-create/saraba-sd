@@ -1,0 +1,15 @@
+﻿src/app/page.tsx(13,41): error TS2304: Cannot find name 'useState'.
+src/app/page.tsx(14,37): error TS2304: Cannot find name 'useState'.
+src/app/page.tsx(15,29): error TS2304: Cannot find name 'useState'.
+src/app/page.tsx(16,43): error TS2304: Cannot find name 'useState'.
+src/app/page.tsx(17,47): error TS2304: Cannot find name 'useState'.
+src/app/page.tsx(18,43): error TS2304: Cannot find name 'useState'.
+src/app/page.tsx(19,59): error TS2304: Cannot find name 'useState'.
+src/app/page.tsx(21,3): error TS2304: Cannot find name 'useEffect'.
+src/app/page.tsx(84,3): error TS2304: Cannot find name 'useEffect'.
+src/app/page.tsx(87,45): error TS7006: Parameter 'ev' implicitly has an 'any' type.
+src/app/page.tsx(96,28): error TS7006: Parameter 'ev' implicitly has an 'any' type.
+src/app/page.tsx(138,28): error TS7006: Parameter 'ev' implicitly has an 'any' type.
+src/app/page.tsx(269,37): error TS7006: Parameter 'yr' implicitly has an 'any' type.
+src/app/page.tsx(324,37): error TS7006: Parameter 'event' implicitly has an 'any' type.
+src/app/page.tsx(324,44): error TS7006: Parameter 'idx' implicitly has an 'any' type.
