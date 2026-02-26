@@ -40,7 +40,7 @@ const fetchEventData = async (slug: string) => {
             return {
                 ...data,
                 heroImage: data.headerImage || "https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
-                logo: data.qrLogo || "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Tut_Wuri_Handayani.svg/1024px-Tut_Wuri_Handayani.svg.png",
+                logo: data.qrLogo || "https://sipandusd.disdikbudtabalong.id/tabalong-smart.png",
                 time: timeStr,
                 dateDisplay: dateStr,
                 location: data.location || "Lokasi belum ditentukan",
