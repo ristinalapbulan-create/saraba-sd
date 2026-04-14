@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import { Toaster } from "react-hot-toast";
+import SecurityWrapper from "@/components/SecurityWrapper";
 import "./globals.css";
 
 const poppins = Poppins({
@@ -25,8 +26,10 @@ export default function RootLayout({
         suppressHydrationWarning
         className={`${poppins.variable} font-sans antialiased bg-slate-50 text-slate-900 selection:bg-blue-200 selection:text-blue-900`}
       >
-        <Toaster position="top-right" reverseOrder={false} />
-        {children}
+        <SecurityWrapper>
+          <Toaster position="top-right" reverseOrder={false} />
+          {children}
+        </SecurityWrapper>
       </body>
     </html>
   );
