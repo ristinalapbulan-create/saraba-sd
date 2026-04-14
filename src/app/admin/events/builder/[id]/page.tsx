@@ -162,7 +162,7 @@ export default function EventBuilder() {
         }));
     };
 
-    const fullUrl = `https://saraba.disdikbudtabalong.id/${slug}`;
+    const fullUrl = `https://sarabasd.disdikbudtabalong.id/${slug}`;
     const broadcastText = `Kepada Yth. Seluruh Peserta,\n\nBerikut adalah portal resmi kegiatan "${title}". Silakan akses informasi selengkapnya melalui tautan ini:\n\n👉 ${fullUrl}\n\nDemikian informasi ini kami sampaikan. Atas perhatian dan kerja sama Bapak/Ibu, kami ucapkan terima kasih.\n\nSalam hormat,\nBidang Pembinaan SD\nDinas Pendidikan dan Kebudayaan Kabupaten Tabalong`;
 
     const handleDownloadQR = () => {
